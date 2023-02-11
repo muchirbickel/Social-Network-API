@@ -14,12 +14,12 @@ connection.once('open', async () => {
 
     const users = [
         {
-            username: "dr.lababidi",
-            email: "dr.lababidi@yahoo.com",
+            username: "muchir",
+            email: "muchir@gmail.com",
         },
         {
-            username: "aalam baba",
-            email: "aalam.baba@yahoo.com",
+            username: "henry",
+            email: "henry@gmail.com",
         },
     ];
 
@@ -28,8 +28,8 @@ connection.once('open', async () => {
 
     // Add thoughts to the collection and await the results
     await Thought.collection.insertOne({
-        thoughtText: "This is a private thought of dr.lababidi",
-        username: "dr.lababidi",
+        thoughtText: "This is a private thought of muchir",
+        username: "muchir",
     });
 
     // Log out the seed data to indicate what should appear in the database

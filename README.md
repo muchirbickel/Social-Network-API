@@ -1,5 +1,5 @@
 # Social-Network-API
-Module 18 Challenge
+
 
 ## User Story
 
@@ -24,7 +24,9 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 ```
 
 ## Link to walkthrough video
-https://youtu.
+https://youtu.be/B7nK8ORBvS4
+
+![](./assets/gif.gif)
 
 ## License
 MIT LICENSE 
